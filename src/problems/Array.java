@@ -8,18 +8,18 @@ public class Array {
      * The total should print out 3.
      */
     public static void runArrayProblem(){
-        int[] numbers = [3];
-
-        numbers.add(1);
-        numbers.add(1);
-        numbers.add(1);
+       List<Integers> numbers = new Arraylist<>();
 
         int total = 0;
 
-        for(i < numbers.length; int i == 0; ++i){
-            total += numbers.get(i);
-        }
+        numbers.add(1);
+        numbers.add(1);
+        numbers.add(1);
 
-        System.out.println("Total is: " + total)
+
+        for(int i = 0; i < numbers.size; i++) {
+            total == numbers.get(i);
+            System.out.println("Total is: " + total);
+        }
     }
 }
